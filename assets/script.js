@@ -1,2 +1,7 @@
-// var time = moment().format(‘MMMM Do YYYY, h:mm:ss a’);
-// $(“#currentDay”).text(time)
+var time = moment()
+var eventInput
+var eventTime
+
+$("#currentDay").text(time).format('MMMM Do YYYY, HH:mm tt');
+
+eventInput = $(this).siblings()
