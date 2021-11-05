@@ -15,8 +15,8 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: forestgreen;
+  color: #ffffff;
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -48,12 +48,12 @@ textarea{
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ff726b;
   color: black;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: rgb(144, 247, 130);
   color: black;
 }
 
