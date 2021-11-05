@@ -2,7 +2,7 @@ var time = moment()
 var eventInput
 var eventTime
 
-
+// date and time
 $("#currentDay").text(moment().format('MMMM Do YYYY, HH:mm A'));
 
 
