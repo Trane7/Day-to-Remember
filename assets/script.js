@@ -7,15 +7,15 @@ $("#currentDay").text(moment().format('MMMM Do YYYY, HH:mm A'));
 
 
 
-
+// changes the color of time blocks
 $(document).ready( function() {
     colorChange ();
     renderText();
 });
 
 
+// when the time changes so does the time blocks
 function colorChange () {
-    
     var currentTime = moment().hours();
     console.log("Current Time" + currentTime);
 
@@ -39,7 +39,7 @@ $(".input").each(function () {
   });
 }
 
-
+// save button to localStorage
 $(".saveBtn").click(function() {
     eventInput = $(this).siblings(".input").val();
     console.log(eventInput);
@@ -52,7 +52,7 @@ $(".saveBtn").click(function() {
 })
 
 
-
+// saves and displays users inputs
 function renderText () {   
     var saveEventInput5 = JSON.parse(localStorage.getItem("5:00 AM"));
     $("#5").val("");
