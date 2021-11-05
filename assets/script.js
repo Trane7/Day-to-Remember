@@ -1,4 +1,6 @@
 var time = moment()
+var eventInput
+var eventTime
 
 
 $("#currentDay").text(moment().format('MMMM Do YYYY, HH:mm A'));
@@ -38,9 +40,6 @@ $(".input").each(function () {
 }
 
 
-var eventInput
-var eventTime
-
 $(".saveBtn").click(function() {
     eventInput = $(this).siblings(".input").val();
     console.log(eventInput);
@@ -51,8 +50,6 @@ $(".saveBtn").click(function() {
     colorChange ();
     renderText ();
 })
-
-
 
 
 
