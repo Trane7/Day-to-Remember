@@ -87,19 +87,19 @@ function renderText () {
     $("#12").val(saveEventInput12)
 
     var saveEventInput1 = JSON.parse(localStorage.getItem("1:00 PM"));
-    $("#1").val("");
-    $("#1").val(saveEventInput1)
+    $("#13").val("");
+    $("#13").val(saveEventInput1)
 
     var saveEventInput2 = JSON.parse(localStorage.getItem("2:00 PM"));
-    $("#2").val("");
-    $("#2").val(saveEventInput2)
+    $("#14").val("");
+    $("#14").val(saveEventInput2)
 
     var saveEventInput3 = JSON.parse(localStorage.getItem("3:00 PM"));
-    $("#3").val("");
-    $("#3").val(saveEventInput3)
+    $("#15").val("");
+    $("#15").val(saveEventInput3)
 
     var saveEventInput4 = JSON.parse(localStorage.getItem("4:00 PM"));
-    $("#4").val("");
-    $("#4").val(saveEventInput4)
+    $("#16").val("");
+    $("#16").val(saveEventInput4)
 
 }
