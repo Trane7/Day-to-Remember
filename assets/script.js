@@ -60,5 +60,38 @@ function renderText () {
     var saveEventInput5 = JSON.parse(localStorage.getItem("5:00 AM"));
     $("#5").val("");
     $("#5").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("6:00 AM"));
+    $("#6").val("");
+    $("#6").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("7:00 AM"));
+    $("#7").val("");
+    $("#7").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("8:00 AM"));
+    $("#8").val("");
+    $("#8").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("9:00 AM"));
+    $("#9").val("");
+    $("#9").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("10:00 AM"));
+    $("#10").val("");
+    $("#10").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("11:00 AM"));
+    $("#11").val("");
+    $("#11").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("12:00 PM"));
+    $("#12").val("");
+    $("#12").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("1:00 PM"));
+    $("#1").val("");
+    $("#1").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("2:00 PM"));
+    $("#2").val("");
+    $("#2").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("3:00 PM"));
+    $("#3").val("");
+    $("#3").val(saveEventInput5);
+    var saveEventInput5 = JSON.parse(localStorage.getItem("4:00 PM"));
+    $("#4").val("");
+    $("#4").val(saveEventInput5);
 
 }
